@@ -3,7 +3,7 @@
     "nixpacksPlan": {
       "phases": {
         "setup": {
-          "nixPkgs": ["python311", "pip"]
+          "nixPkgs": ["python311", "python311Packages.pip"]
         },
         "install": {
           "cmds": ["pip install -r requirements.txt"]
